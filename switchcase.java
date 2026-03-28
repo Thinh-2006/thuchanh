@@ -29,6 +29,9 @@ public class switchcase {
             case 8:
                 System.out.println("Chu nhat");
                 break;
+            case 9:
+                System.out.println("hihihihi!");
+                break;
             default:
                 System.out.println("Vui long nhap lai.");
         }
