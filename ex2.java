@@ -21,5 +21,6 @@ public class ex2 {
         } else {
             System.out.println("You got an F tier!");
         }
+        System.out.println("XONG!!!");
     }
 }
