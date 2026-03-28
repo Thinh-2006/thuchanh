@@ -8,16 +8,18 @@ public class ex2 {
         Scanner s = new Scanner(System.in);
         System.out.print("- What percentage did you earn: ");
         int percent = s.nextInt();
-        if (percent >= 90) {
-            System.out.println("You got an A!");
-        } else if (percent >= 80) {
-            System.out.println("You got an B!");
-        } else if (percent >= 70) {
-            System.out.println("You got an C!");
-        } else if (percent >= 60) {
-            System.out.println("You got an D!");
+        if (percent >= 93) {
+            System.out.println("You got an S tier!");
+        } else if(percent >=83){
+            System.out.println("You got an A tier!");
+        }else if (percent >= 73) {
+            System.out.println("You got an B tier!");
+        } else if (percent >= 63) {
+            System.out.println("You got an C tier!");
+        } else if (percent >= 53) {
+            System.out.println("You got an D tier!");
         } else {
-            System.out.println("You got an F!");
+            System.out.println("You got an F tier!");
         }
     }
 }
