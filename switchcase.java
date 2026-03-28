@@ -30,7 +30,7 @@ public class switchcase {
                 System.out.println("Chu nhat");
                 break;
             case 9:
-                System.out.println("hihihihi!");
+                System.out.println("KHONG CO NGAY NAO LA YEN BINH!");
                 break;
             default:
                 System.out.println("Vui long nhap lai.");
